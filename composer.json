@@ -1,0 +1,28 @@
+{
+    "name": "cris/model-helpers",
+    "description": "Laravel Model Helpers",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "crisjohn02",
+            "email": "crisjohnreytarpin@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nette/php-generator": "^3.3"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cris\\Modelhelpers\\ModelHelpersServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Cris\\Modelhelpers\\": "src/"
+        }
+    }
+}
